@@ -12,7 +12,6 @@ class BooksController < ApplicationController
 
   # GET /books/new
   def new
-    binding.pry
     @book = Book.new
   end
 

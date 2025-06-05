@@ -1,7 +1,7 @@
 class BooksController < ApplicationController
   before_action :set_book, only: %i[ show edit update destroy ]
 
-  # GET /books or /books.json
+  # GET /books or /books.jsonn
   def index
     @books = Book.all
   end
